@@ -1,0 +1,29 @@
+*,
+::before, 
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* pour le mobile */
+@media(width <= 480px){
+ p{
+    background-color: aqua;
+ }
+image{
+    max-width: 100px;
+    margin: 0 auto;
+ }
+}
+/* pour le tablet */
+@media(480 < width <= 800px){
+    p{
+        background-color: blueviolet;
+     }
+}
+
+.container {
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+
+}
